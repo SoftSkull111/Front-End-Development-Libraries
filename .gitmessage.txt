@@ -1,0 +1,41 @@
+
+# COMMIT MESSAGE GUIDE (Learning Repo)
+
+# Format:
+# [Task Name] [Type] - [Status]
+
+# Types:
+# Lab
+# Workshop
+# Cert Project
+
+# Status:
+# Init   = materials received / started
+# WIP    = in progress
+# Done   = completed
+# Fix    = improvements / corrections
+# Refactor = cleaned code / better structure
+# Review = revisiting for learning
+
+# Examples:
+# LightboxViewer Lab - Init
+# LightboxViewer Lab - Done
+# Pokemon Search Workshop - WIP
+# Calculator Cert Project - Init
+# Calculator Cert Project - Done
+# Gradebook App Lab - Fix
+# Music Player Workshop - Refactor
+
+# Optional Advanced Format:
+# [Task Name] [Type] - [Status]: [Short Note]
+
+# Examples:
+# LightboxViewer Lab - Done: Finished JS events
+# Calculator Cert Project - WIP: Added functions
+# Pokemon Search Workshop - Fix: API bug resolved
+
+# Best Minimal System:
+# Init / WIP / Done
+
+# Recommended for FCC exercise repo:
+# Keep commit messages short, searchable, consistent.
