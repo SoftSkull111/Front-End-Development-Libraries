@@ -1,0 +1,11 @@
+.square-container {
+  display:grid;
+  grid-template-columns: repeat(3, 50px);
+  align-items: start;
+}
+
+.square {
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+}
