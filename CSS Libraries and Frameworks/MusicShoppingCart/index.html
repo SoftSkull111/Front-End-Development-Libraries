@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Shopping Cart Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div id="shopping-cart-container" class="flex flex-col lg:flex-row">
+      <div id="products-container">
+        <div class="card border-2 rounded-xl p-6 m-2">
+          <h2 class="text-lg">Ludwig Supraphonic Snare Drum Chrome</h2>
+          <div class="quantity">2</div>
+          <div class="price">$100</div>
+          <button class="remove-button bg-red-500 hover:bg-red-600 rounded-md">Remove</button>
+        </div>
+        <div class="card border-2 rounded-xl p-6 m-2">
+          <h2 class="text-lg">Shure SM58S Mic With Switch Standard</h2>
+          <div class="quantity">2</div>
+          <div class="price">$100</div>
+          <button class="remove-button bg-red-500 hover:bg-red-600 rounded-md">Remove</button>
+        </div>
+      </div>
+      <div id="order-summary-container" class="border-2 rounded-xl m-2 p-4">
+        <h2 class="text-lg">Order Summary</h2>
+        <span id="total" class="font-bold text-sm mr-2">Total:</span><span id="total-amount" class="font-medium text-sm">$500</span><br/>
+        <a href="#" class="block text-center bg-blue-200 hover:bg-blue-300 px-4 py-2 mt-4">Checkout</a>
+      </div>
+    </div>
+  </body>
+</html>
